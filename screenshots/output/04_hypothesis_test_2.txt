@@ -1,0 +1,19 @@
+=== HYPOTHESIS TEST 2: ONE-WAY ANOVA & TUKEY HSD ===
+              Df    Sum Sq Mean Sq F value    Pr(>F)    
+Category       2   5898009 2949004  54.311 < 2.2e-16 ***
+Residuals   9991 542495827   54298                      
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Post-Hoc Tukey HSD:
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = Profit ~ Category, data = ht_data)
+
+$Category
+                               diff       lwr      upr     p adj
+Office Supplies-Furniture  11.62772 -2.162608 25.41805 0.1180852
+Technology-Furniture       70.05268 52.668953 87.43640 0.0000000
+Technology-Office Supplies 58.42495 43.897722 72.95218 0.0000000
+

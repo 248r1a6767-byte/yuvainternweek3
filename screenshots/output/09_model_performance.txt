@@ -1,0 +1,16 @@
+=== MASTER MODEL EVALUATION ON UNSEEN TEST DATA ===
+  Model_ID                                    Model_Description CV_RMSE_Mean
+1  Model 0                                  Naive Mean Baseline       226.15
+2  Model 1                     Multiple Linear Regression (OLS)       203.98
+3  Model 2 Elastic Net Regularization (alpha = 0.5, lambda.1se)       227.64
+4  Model 3     Random Forest Regression (ntree = 200, mtry = 3)       149.35
+  CV_MAE_Mean CV_R2_Mean Test_RMSE Test_MAE Test_R2 Generalization_Gap_RMSE
+1       61.14     0.0000    256.79    69.21  0.0000                   30.64
+2       57.10     0.1711    200.68    62.94  0.3887                   -3.30
+3       58.14    -0.0128    224.24    54.00  0.2367                   -3.40
+4       28.58     0.5671    130.46    32.00  0.7417                  -18.90
+                         Selection_Status
+1                      Baseline Benchmark
+2           Interpretable Linear Baseline
+3            Regularized Linear Candidate
+4 CHAMPION MODEL (Lowest CV & Test Error)

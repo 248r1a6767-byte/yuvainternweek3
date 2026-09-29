@@ -1,0 +1,5 @@
+Model_ID,Model_Description,CV_RMSE_Mean,CV_MAE_Mean,CV_R2_Mean,Test_RMSE,Test_MAE,Test_R2,Generalization_Gap_RMSE,Selection_Status
+Model 0,Naive Mean Baseline,226.15,61.14,0,256.79,69.21,0,30.64,Baseline Benchmark
+Model 1,Multiple Linear Regression (OLS),203.98,57.1,0.1711,200.68,62.94,0.3887,-3.3,Interpretable Linear Baseline
+Model 2,"Elastic Net Regularization (alpha = 0.5, lambda.1se)",227.64,58.14,-0.0128,224.24,54,0.2367,-3.4,Regularized Linear Candidate
+Model 3,"Random Forest Regression (ntree = 200, mtry = 3)",149.35,28.58,0.5671,130.46,32,0.7417,-18.9,CHAMPION MODEL (Lowest CV & Test Error)

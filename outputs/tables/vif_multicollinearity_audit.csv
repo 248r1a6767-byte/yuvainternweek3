@@ -1,0 +1,9 @@
+Predictor,GVIF,Df,GVIF^(1/(2*Df)),Standardized_VIF,Multicollinearity_Status
+Sales,1.097,1,1.047,1.097,Acceptable (Low)
+Discount,1.069,1,1.034,1.069,Acceptable (Low)
+Quantity,1.041,1,1.02,1.041,Acceptable (Low)
+Shipping_Days,3.113,1,1.764,3.113,Acceptable (Low)
+Category,1.063,2,1.015,1.031,Acceptable (Low)
+Region,1.066,3,1.011,1.021,Acceptable (Low)
+Segment,1.006,2,1.001,1.003,Acceptable (Low)
+Ship_Mode,3.137,3,1.21,1.464,Acceptable (Low)

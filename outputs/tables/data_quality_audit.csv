@@ -1,0 +1,10 @@
+Audit_Dimension,Observed_Result,Action_Required,Compliance_Status
+Completeness (Missing Values),0 missing cells (0.00%),None - 100% empirical completeness verified,PASS
+Record Uniqueness (Exact Duplicates),0 exact duplicate rows,None - All transaction records are unique line items,PASS
+Entity Granularity (Multi-item Orders),5009 distinct orders across 9994 line items,Retain all line items as distinct observation units,PASS
+Value Validity (Sales > 0),0 non-positive sales records,None - All transactions have positive gross sales,PASS
+Value Validity (Quantity >= 1),"0 invalid quantity records (Min = 1, Max = 14)",None - All quantities represent valid retail purchases,PASS
+"Value Validity (Discount in [0, 1])",0 out-of-bounds discount rates (Range: 0.00 - 0.80),None - All discounts represent legitimate commercial promotions,PASS
+Target Extremes (Profit Range),"Min = $-6599.98, Max = $8399.98",Retain all extreme transactions (verified commercial orders),PASS
+Geographic Integrity (5-Digit Postal Codes),438 truncated postal codes requiring zero-padding,Pad truncated postal codes with leading zeroes via sprintf,ACTION_TAKEN
+Data Leakage Risk,Zero circular target-derived features allowed as predictors,Strict separation: exclude profit derivatives from predictor matrix,PASS

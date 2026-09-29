@@ -1,0 +1,16 @@
+Metric_Key,Metric_Value
+timestamp,1790698389.69126
+r_version,R version 4.6.1 (2026-06-24 ucrt)
+seed,12345
+raw_observations,9994
+clean_rows,9994
+train_rows,7995
+test_rows,1999
+cv_folds,5
+champion_model,"Random Forest Regression (ntree = 200, mtry = 3)"
+champion_test_rmse,130.456548133958
+champion_test_mae,32.0049983545938
+champion_test_r2,0.741665110299541
+baseline_test_rmse,256.789785844811
+ols_test_rmse,200.680055291955
+enet_test_rmse,224.240961734586

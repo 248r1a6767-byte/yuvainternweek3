@@ -1,0 +1,3 @@
+Variable,Sample_Size,Skewness,Excess_Kurtosis,Shapiro_Wilk_W,Shapiro_Wilk_p,KS_Statistic_D,KS_Test_p,Empirical_Assessment
+Profit (Primary Target),9994,7.5603,396.9892,0.218,0,0.3308,0,"Heavy-tailed, leptokurtic distribution with extreme positive/negative commercial outliers; non-normal."
+Sales (Gross Revenue),9994,12.9708,305.1584,0.3184,0,0.3564,0,Severely right-skewed distribution with long positive tail; non-normal.

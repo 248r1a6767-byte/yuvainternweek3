@@ -1,0 +1,17 @@
+=== BIVARIATE CORRELATION MATRICES ===
+
+--- Pearson Linear Correlation ---
+               Profit   Sales Discount Quantity Shipping_Days
+Profit         1.0000  0.4791  -0.2195   0.0663       -0.0047
+Sales          0.4791  1.0000  -0.0282   0.2008       -0.0073
+Discount      -0.2195 -0.0282   1.0000   0.0086        0.0002
+Quantity       0.0663  0.2008   0.0086   1.0000        0.0184
+Shipping_Days -0.0047 -0.0073   0.0002   0.0184        1.0000
+
+--- Spearman Rank Correlation ---
+               Profit   Sales Discount Quantity Shipping_Days
+Profit         1.0000  0.5184  -0.5434   0.2345       -0.0072
+Sales          0.5184  1.0000  -0.0570   0.3274       -0.0150
+Discount      -0.5434 -0.0570   1.0000  -0.0009       -0.0146
+Quantity       0.2345  0.3274  -0.0009   1.0000        0.0159
+Shipping_Days -0.0072 -0.0150  -0.0146   0.0159        1.0000

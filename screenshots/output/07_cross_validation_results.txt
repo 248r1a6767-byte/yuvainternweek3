@@ -1,0 +1,9 @@
+=== 5-FOLD CROSS-VALIDATION SUMMARY ===
+                                                  Candidate_Model CV_RMSE_Mean
+1                       Model 1: Multiple Linear Regression (OLS)      203.981
+2 Model 2: Elastic Net Regularization (alpha = 0.5, lambda = 1se)      227.643
+3       Model 3: Random Forest Regression (ntree = 200, mtry = 3)      149.353
+  CV_RMSE_SD CV_MAE_Mean CV_MAE_SD CV_R2_Mean CV_R2_SD
+1     45.755      57.099     3.775      0.171    0.256
+2     36.251      58.144     5.458     -0.013    0.027
+3     41.075      28.584     1.929      0.567    0.138

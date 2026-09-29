@@ -1,0 +1,15 @@
+Variable,Level,Frequency,Percentage
+Category,Furniture,2121,21.22%
+Category,Office Supplies,6026,60.30%
+Category,Technology,1847,18.48%
+Region,Central,2323,23.24%
+Region,East,2848,28.50%
+Region,South,1620,16.21%
+Region,West,3203,32.05%
+Segment,Consumer,5191,51.94%
+Segment,Corporate,3020,30.22%
+Segment,Home Office,1783,17.84%
+Ship_Mode,First Class,1538,15.39%
+Ship_Mode,Same Day,543,5.43%
+Ship_Mode,Second Class,1945,19.46%
+Ship_Mode,Standard Class,5968,59.72%

@@ -1,0 +1,9 @@
+Feature,Pct_Inc_MSE,Inc_Node_Purity
+Sales,28.5,261239793.85
+Discount,27.05,55242764.08
+Category,5.78,10727824.08
+Quantity,3.12,17030233.25
+Region,2.67,14236395.17
+Ship_Mode,-0.04,5666608.39
+Shipping_Days,-0.4,14076711.28
+Segment,-2.42,7324564.08

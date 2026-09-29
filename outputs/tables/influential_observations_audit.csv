@@ -1,0 +1,11 @@
+Order_ID,Customer_Name,Category,Sub_Category,Sales,Discount,Profit,Fitted,Residual,Cooks_D,Leverage
+CA-2011-145317,Sean Miller,Technology,Machines,22638.48,0.5,-1811.08,3605.26,-5416.34,12.48,0.17
+CA-2013-118689,Tamara Chand,Technology,Copiers,17499.95,0,8399.98,2898.48,5501.49,6.53,0.1
+CA-2014-140151,Raymond Buch,Technology,Copiers,13999.96,0,6719.98,2316.37,4403.61,2.47,0.07
+US-2014-168116,Grant Thornton,Technology,Machines,7999.98,0.5,-3839.99,1216.7,-5056.69,1.09,0.02
+CA-2013-108196,Cindy Stewart,Technology,Machines,4499.98,0.7,-6599.98,596.75,-7196.73,0.75,0.01
+CA-2011-116904,Sanjit Chand,Office Supplies,Binders,9449.95,0,4630.48,1587.69,3042.79,0.52,0.03
+CA-2014-127180,Tom Ashbrook,Technology,Copiers,11199.97,0.2,3919.99,1815.63,2104.35,0.34,0.04
+CA-2011-139892,Becky Martin,Technology,Machines,8159.95,0.4,-1359.99,1267.24,-2627.23,0.26,0.02
+CA-2012-145352,Christopher Martinez,Office Supplies,Binders,6354.95,0,3177.48,1070.81,2106.67,0.11,0.01
+CA-2014-134845,Sharelle Roach,Technology,Machines,2549.99,0.7,-3399.98,278.88,-3678.86,0.1,0

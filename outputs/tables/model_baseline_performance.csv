@@ -1,0 +1,2 @@
+Model,Predictor_Count,Tuning_Params,CV_RMSE_Mean,CV_RMSE_SD,CV_MAE_Mean,CV_MAE_SD,CV_R2_Mean,Test_RMSE,Test_MAE,Test_R2,Model_Role
+Model 0: Naive Mean Baseline,0,None (Intercept only = mean(y_train)),226.15,34.91,61.14,2.37,0,256.79,69.21,0,Reference benchmark for evaluating candidate predictive models

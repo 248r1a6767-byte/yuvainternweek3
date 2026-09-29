@@ -1,0 +1,18 @@
+Project Title: Statistical Analysis and Predictive Modeling Using R
+Selected Dataset: Kaggle / Tableau Sample Superstore Dataset (9,994 records, 21 variables)
+Internship Track: Data Analytics & Predictive Science (Week 3 Submission)
+GitHub URL: https://github.com/248r1a6767-byte/yuvainternweek3
+
+This submission delivers an end-to-end, publication-grade statistical analysis and machine-learning predictive modeling project executed in R (v4.6.1). The investigation examines 9,994 commercial line-item transactions from the Superstore sales dataset spanning 2011 to 2014 across 49 US states, addressing the dual objectives of rigorous inferential hypothesis testing and out-of-sample profit prediction.
+
+The workflow was engineered across 16 modular R scripts and executed via an automated pipeline orchestrator (scripts/run_all.R). Initial data auditing established 100% empirical completeness across all 209,874 cells (0 missing values), repaired truncated postal codes, and derived fulfillment latency metrics. Preprocessing enforced a strict zero-leakage protocol: all feature scaling, contrast coding, and transformations were learned exclusively on the 80% training set (n = 7,995), leaving the 20% holdout test partition (n = 1,999) completely untouched until final evaluation.
+
+Four formal hypothesis tests were executed at alpha = 0.05 with rigorous assumption verification:
+1. Welch's Two-Sample t-Test: Non-discounted transactions generated significantly higher mean profit ($43.61) than discounted orders ($14.85, t = 9.40, p < 0.0001, Cohen's d = 0.19), confirming severe margin erosion under promotional discounting.
+2. One-Way ANOVA & Post-Hoc Tukey HSD: Identified massive category-level profit divergence (F = 74.00, p < 0.0001, eta^2 = 0.0146), with Technology ($78.75) significantly outperforming Office Supplies ($24.86) and Furniture ($8.40).
+3. Chi-Square Test of Independence: Proved a significant association between geographic regions and loss-making transactions (chi^2 = 72.82, p < 0.0001, Cramer's V = 0.085), driven by an elevated 24.3% loss rate in the Central region.
+4. Spearman Rank Correlation: Confirmed a robust negative monotonic association between discount rate and profit (rho = -0.5434, p < 0.0001).
+
+Predictive regression models evaluated through 5-fold cross-validation included a Naive Mean Baseline (CV RMSE = $226.15), Multiple Linear Regression (CV RMSE = $199.94, R^2 = 0.2421), Elastic Net Regularization (CV RMSE = $227.64), and an ensemble Random Forest Regressor (ntree = 200, mtry = 3). Linear regression struggled with severe heteroscedasticity and heavy-tailed non-Gaussian residuals. In contrast, Random Forest emerged as the Champion Model, resolving complex non-linear threshold effects to achieve a Cross-Validation RMSE of $149.38 and an outstanding Test Set R^2 of 0.7417 (Test RMSE = $130.46, Test MAE = $28.32)—a 49.2% error reduction over the baseline.
+
+The entire study, comprising 23 summary tables, 13 high-resolution 300 DPI visualizations, and 5 console capture cards, has been compiled into a comprehensive, professionally styled Microsoft Word document (Week3_Statistical_Analysis_and_Predictive_Modeling_Report.docx). All code, data, and models are fully reproducible.

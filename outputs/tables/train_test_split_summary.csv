@@ -1,0 +1,5 @@
+Partition,Observations,Percentage,Target_Mean,Target_SD,Target_Min,Target_Max,Usage_Protocol
+Training Set,7995,80.00%,$27.09,$228.29,$-6599.98,$8399.98,"Model estimation, feature transformation, parameter learning"
+Validation Scheme (Inside Train),7995,5-Fold Cross-Validation (K=5),Cross-Fold Mean,Cross-Fold SD,Cross-Fold Min,Cross-Fold Max,Hyperparameter tuning & out-of-fold performance estimation
+Test Set (Final Evaluation),1999,20.00%,$34.94,$256.73,$-2929.48,$5039.99,Strictly untouched; evaluated exactly ONCE for final generalization
+Total Complete Master,9994,100.00%,$28.66,$234.26,$-6599.98,$8399.98,Source empirical population

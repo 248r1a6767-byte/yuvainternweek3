@@ -1,0 +1,4 @@
+Category,Test_N,Mean_Profit,RMSE_RF,MAE_RF
+Furniture,444,6.11,81.95,31.36
+Office Supplies,1183,24.78,117.08,23.6
+Technology,372,101.66,199.62,59.51

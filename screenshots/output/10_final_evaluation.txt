@@ -1,0 +1,39 @@
+=== CHAMPION RANDOM FOREST TEST SET PERFORMANCE ===
+Test RMSE: $130.46
+Test MAE : $32.00
+Test R2  : 0.7417
+
+Top Prediction Residuals:
+         Order_ID    Customer_Name        Category Sub_Category    Sales
+1  CA-2012-147830 Natalie Fritzler      Technology     Machines  1799.99
+2  CA-2014-166709     Hunter Lopez      Technology      Copiers 10499.97
+3  CA-2013-117121    Adrian Barton Office Supplies      Binders  9892.74
+4  CA-2014-138289      Andy Reiter Office Supplies      Binders  5443.96
+5  CA-2013-103982       Alex Avila Office Supplies     Supplies  3930.07
+6  US-2014-122714    Henry Goldwyn Office Supplies      Binders  1889.99
+7  CA-2012-114811    Keith Dawkins      Technology     Machines  4643.80
+8  CA-2012-116638      Joseph Holt       Furniture       Tables  4297.64
+9  CA-2013-138478    Dennis Pardue Office Supplies      Binders  4535.98
+10 US-2013-140158    Daniel Raglin      Technology      Copiers  5399.91
+   Discount   Profit Predicted_Profit_RF Residual_RF
+1       0.7 -2639.99             -650.28    -1989.71
+2       0.0  5039.99             3098.35     1941.63
+3       0.0  4946.37             3088.65     1857.72
+4       0.0  2504.22              786.03     1718.19
+5       0.2  -786.01              837.95    -1623.97
+6       0.8 -2929.48            -1412.55    -1516.93
+7       0.0  2229.02              870.66     1358.37
+8       0.4 -1862.31             -650.16    -1212.15
+9       0.2  1644.29              476.11     1168.18
+10      0.0  2591.96             1501.52     1090.44
+                        Error_Type
+1   Over-predicted (Profit < Pred)
+2  Under-predicted (Profit > Pred)
+3  Under-predicted (Profit > Pred)
+4  Under-predicted (Profit > Pred)
+5   Over-predicted (Profit < Pred)
+6   Over-predicted (Profit < Pred)
+7  Under-predicted (Profit > Pred)
+8   Over-predicted (Profit < Pred)
+9  Under-predicted (Profit > Pred)
+10 Under-predicted (Profit > Pred)

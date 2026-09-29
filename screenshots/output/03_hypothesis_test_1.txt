@@ -1,0 +1,23 @@
+=== HYPOTHESIS TEST 1: WELCH TWO-SAMPLE T-TEST ===
+
+	Welch Two Sample t-test
+
+data:  Profit by Discount_Status
+t = -15.738, df = 9162.2, p-value < 2.2e-16
+alternative hypothesis: true difference in means between group Discounted and group No Discount is not equal to 0
+95 percent confidence interval:
+ -82.71929 -64.39561
+sample estimates:
+ mean in group Discounted mean in group No Discount 
+                -6.657156                 66.900292 
+
+
+Cohen's d Effect Size:
+
+Cohen's d
+
+d estimate: -0.3179201 (small)
+95 percent confidence interval:
+     lower      upper 
+-0.3574137 -0.2784264 
+

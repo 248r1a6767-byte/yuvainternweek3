@@ -1,0 +1,9 @@
+Metric,Value
+Multiple R-Squared,0.2421 (24.21% variance explained)
+Adjusted R-Squared,0.2408 (24.08% adjusted)
+Residual Standard Error (RSE),$198.91
+Degrees of Freedom (Residual),7980
+F-Statistic (Omnibus),"182.12 (df1 = 14, df2 = 7980)"
+p-Value (Omnibus Test),< 1e-04
+AIC (Akaike Information Criterion),107338.38
+BIC (Bayesian Information Criterion),107450.17
